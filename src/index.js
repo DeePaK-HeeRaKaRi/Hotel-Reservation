@@ -7,11 +7,11 @@ import { SearchContextProvider } from './Context/searchContext';
 import { AuthContextProvider } from './Context/AuthContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <AuthContextProvider>
-      <SearchContextProvider>
-        <App />
-      </SearchContextProvider>
-   </AuthContextProvider>
+  <AuthContextProvider>
+    <SearchContextProvider>
+      <App />
+    </SearchContextProvider>
+  </AuthContextProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

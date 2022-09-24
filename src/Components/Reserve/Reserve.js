@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-function Reserve({setOpen,hotelId}) {
+function Reserve() {
   return (
     <div>
       Reserve
     </div>
-  )
+  );
 }
 
-export default Reserve
+export default Reserve;
 

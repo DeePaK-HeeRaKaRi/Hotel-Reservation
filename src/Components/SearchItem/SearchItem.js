@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './SearchItem.css'
-function SearchItem({item}) {
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './SearchItem.css';
+function SearchItem({ item }) {
   return (
     <div className="searchItem">
       <img
@@ -38,7 +38,7 @@ function SearchItem({item}) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default SearchItem
+export default SearchItem;
