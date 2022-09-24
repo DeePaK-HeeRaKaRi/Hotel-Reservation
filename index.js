@@ -21,7 +21,7 @@ app.use(morgan('common'))
 dotenv.config()
 const connect = async () => {
     try {
-        await mongoose.connect('mongodb+srv://deepak_booking:Deepak235539@cluster0.golnrjs.mongodb.net/?retryWrites=true&w=majority')
+        await mongoose.connect('******')
         console.log('Connected to mongoDB')
       } catch (error) {
         console.log('!! Error connecting to mongoDB !!')
@@ -29,7 +29,7 @@ const connect = async () => {
       }
 }
 mongoose.connection.on('disconnected',() =>{
-    console.log('MOngodb disconnected')
+    console.log('Mongodb disconnected')
 })
 // app.get('/',(req,res) => {
 //     res.json({key:'Hello '})
