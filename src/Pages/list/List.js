@@ -9,7 +9,7 @@ import SearchItem from '../../Components/SearchItem/SearchItem';
 import useFetch from '../../Hooks/useFetch';
 function List() {
   const location = useLocation();
-  // console.log(location);
+  console.log('------location',location);
   const [destination, setDestination] = useState(location.state.destination);
   const [dates, setDates] = useState(location.state.dates);
   /*eslint-disable */
@@ -116,5 +116,4 @@ function List() {
     </div>
   );
 }
-
 export default List;

@@ -31,7 +31,7 @@ function Login() {
       try {
         const res = await api.post('/auth/login',credentials);
         console.log(res);
-        dispatch({ type : 'LOGIN_SUCCESS',payload : res.data });
+        dispatch({ type : 'LOGIN_SUCCESS',payload : res.data.details });
         navigate(-1);
         // console.log(window.history)
       }catch(err) {
